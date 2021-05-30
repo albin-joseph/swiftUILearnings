@@ -20,4 +20,10 @@ This repository include some basic **Swift UI** projects. It may helpful for the
     - [List](https://developer.apple.com/documentation/swiftui/list/)
     - [ScrollView](https://developer.apple.com/documentation/swiftui/scrollview/)
     - [Animations](https://www.hackingwithswift.com/books/ios-swiftui/customizing-animations-in-swiftui)
-2. 
+ 2. 
+
+#
+
+Reference
+ - https://developer.apple.com/documentation/swiftui
+ - https://www.youtube.com/c/CredoAcademy/videos
