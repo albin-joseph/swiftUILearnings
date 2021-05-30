@@ -8,9 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    var berries: [Berry] = berryData
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView{
+            List{
+                ForEach(berries){ item in
+                    NavigationLink(
+                        destination: BerryDetailView(berry: item)){
+                        BerryRowView(berry: item)
+                            .padding(.vertical, 4)
+                    }
+                }
+            }
+            .navigationTitle("Berries")
+        }
     }
 }
 

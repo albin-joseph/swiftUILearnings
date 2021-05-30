@@ -16,6 +16,11 @@
 		4900014C26621CB200EF0CEE /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4900014B26621CB200EF0CEE /* OnBoardingView.swift */; };
 		4900014F266224FF00EF0CEE /* BerryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4900014E266224FF00EF0CEE /* BerryModel.swift */; };
 		490001522662269800EF0CEE /* BerryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490001512662269800EF0CEE /* BerryData.swift */; };
+		497C295926636B6F0011A440 /* BerryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497C295826636B6F0011A440 /* BerryRowView.swift */; };
+		497C295B266384770011A440 /* BerryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497C295A266384770011A440 /* BerryDetailView.swift */; };
+		497C295D26638BC40011A440 /* BerryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497C295C26638BC40011A440 /* BerryHeaderView.swift */; };
+		497C295F266392FF0011A440 /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497C295E266392FF0011A440 /* SourceLinkView.swift */; };
+		497C2961266398550011A440 /* BerryNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497C2960266398550011A440 /* BerryNutrientsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +35,11 @@
 		4900014B26621CB200EF0CEE /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 		4900014E266224FF00EF0CEE /* BerryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerryModel.swift; sourceTree = "<group>"; };
 		490001512662269800EF0CEE /* BerryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerryData.swift; sourceTree = "<group>"; };
+		497C295826636B6F0011A440 /* BerryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerryRowView.swift; sourceTree = "<group>"; };
+		497C295A266384770011A440 /* BerryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerryDetailView.swift; sourceTree = "<group>"; };
+		497C295C26638BC40011A440 /* BerryHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerryHeaderView.swift; sourceTree = "<group>"; };
+		497C295E266392FF0011A440 /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
+		497C2960266398550011A440 /* BerryNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerryNutrientsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +106,11 @@
 			children = (
 				490001472661FB2F00EF0CEE /* BerryCardView.swift */,
 				490001492662042200EF0CEE /* StartButtonView.swift */,
+				497C295826636B6F0011A440 /* BerryRowView.swift */,
+				497C295A266384770011A440 /* BerryDetailView.swift */,
+				497C295C26638BC40011A440 /* BerryHeaderView.swift */,
+				497C295E266392FF0011A440 /* SourceLinkView.swift */,
+				497C2960266398550011A440 /* BerryNutrientsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -185,12 +200,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				497C295B266384770011A440 /* BerryDetailView.swift in Sources */,
+				497C295F266392FF0011A440 /* SourceLinkView.swift in Sources */,
 				490001392661EABE00EF0CEE /* ContentView.swift in Sources */,
+				497C295D26638BC40011A440 /* BerryHeaderView.swift in Sources */,
 				4900014A2662042200EF0CEE /* StartButtonView.swift in Sources */,
 				490001522662269800EF0CEE /* BerryData.swift in Sources */,
 				4900014F266224FF00EF0CEE /* BerryModel.swift in Sources */,
+				497C295926636B6F0011A440 /* BerryRowView.swift in Sources */,
 				490001482661FB2F00EF0CEE /* BerryCardView.swift in Sources */,
 				4900014C26621CB200EF0CEE /* OnBoardingView.swift in Sources */,
+				497C2961266398550011A440 /* BerryNutrientsView.swift in Sources */,
 				490001372661EABE00EF0CEE /* berriesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
