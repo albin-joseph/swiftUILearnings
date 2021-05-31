@@ -21,6 +21,8 @@
 		497C295D26638BC40011A440 /* BerryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497C295C26638BC40011A440 /* BerryHeaderView.swift */; };
 		497C295F266392FF0011A440 /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497C295E266392FF0011A440 /* SourceLinkView.swift */; };
 		497C2961266398550011A440 /* BerryNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497C2960266398550011A440 /* BerryNutrientsView.swift */; };
+		497C29632663F08F0011A440 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497C29622663F08F0011A440 /* SettingsView.swift */; };
+		49867FA7266503C200471125 /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49867FA6266503C200471125 /* SettingsLabelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		497C295C26638BC40011A440 /* BerryHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerryHeaderView.swift; sourceTree = "<group>"; };
 		497C295E266392FF0011A440 /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
 		497C2960266398550011A440 /* BerryNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerryNutrientsView.swift; sourceTree = "<group>"; };
+		497C29622663F08F0011A440 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		49867FA6266503C200471125 /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +98,11 @@
 		490001452661FA8E00EF0CEE /* App */ = {
 			isa = PBXGroup;
 			children = (
+				497C295A266384770011A440 /* BerryDetailView.swift */,
 				490001362661EABE00EF0CEE /* berriesApp.swift */,
 				490001382661EABE00EF0CEE /* ContentView.swift */,
 				4900014B26621CB200EF0CEE /* OnBoardingView.swift */,
+				497C29622663F08F0011A440 /* SettingsView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -107,10 +113,10 @@
 				490001472661FB2F00EF0CEE /* BerryCardView.swift */,
 				490001492662042200EF0CEE /* StartButtonView.swift */,
 				497C295826636B6F0011A440 /* BerryRowView.swift */,
-				497C295A266384770011A440 /* BerryDetailView.swift */,
 				497C295C26638BC40011A440 /* BerryHeaderView.swift */,
 				497C295E266392FF0011A440 /* SourceLinkView.swift */,
 				497C2960266398550011A440 /* BerryNutrientsView.swift */,
+				49867FA6266503C200471125 /* SettingsLabelView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -210,8 +216,10 @@
 				497C295926636B6F0011A440 /* BerryRowView.swift in Sources */,
 				490001482661FB2F00EF0CEE /* BerryCardView.swift in Sources */,
 				4900014C26621CB200EF0CEE /* OnBoardingView.swift in Sources */,
+				49867FA7266503C200471125 /* SettingsLabelView.swift in Sources */,
 				497C2961266398550011A440 /* BerryNutrientsView.swift in Sources */,
 				490001372661EABE00EF0CEE /* berriesApp.swift in Sources */,
+				497C29632663F08F0011A440 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
