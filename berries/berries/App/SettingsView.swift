@@ -29,6 +29,14 @@ struct SettingsView: View {
                         }
                     }
                     
+                    GroupBox(
+                    label: SettingsLabelView(labelText: "Application", labelImage: "apps.iphone")
+                    ){
+                        SettingsRowView(name: "Developer", content: "Albin Joseph")
+                        SettingsRowView(name: "Designer", content: "Jayahari V")
+                        SettingsRowView(name: "Website", linkLabel: "AJ Company", linkDestination: "apple.com")
+                    }
+                    
                 }
                 .navigationBarTitle(Text("Settings"), displayMode: .large)
                 .navigationBarItems(
